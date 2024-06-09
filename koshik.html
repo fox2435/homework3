@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="koshik.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <input type="text" id="new-item-input" placeholder="Назва товару">
+            <button id="add-item-button" class="add-button">Додати</button>
+            <ul id="items-list">
+                <!-- Здесь будут отображаться товары -->
+            </ul>
+        </div>
+        <div class="right-column">
+            <h3>Залишилося</h3>
+            <ul id="remaining-items-list">
+                <!-- Здесь будут отображаться оставшиеся товары -->
+            </ul>
+            <h3>Куплено</h3>
+            <ul id="purchased-items-list">
+                <!-- Здесь будут отображаться купленные товары -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
